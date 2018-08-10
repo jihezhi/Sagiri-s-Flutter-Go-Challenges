@@ -76,3 +76,5 @@
 首先大家从0开始的时候，在该组织下创建自己的repository，自由提交代码。我会根据大家的内容merge到官方repository里面。
 
 交流我目前决定使用Gitter，它比Telegram和开发项目融合得更好。
+
+Gitter地址：https://gitter.im/jihezhi/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link
