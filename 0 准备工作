@@ -1,0 +1,49 @@
+# 教程0：开发的前置工作
+
+作为开发者，我们需要顺畅地访问github.com、wikipedia等网站，因此，翻墙是必须的。该教程专为本项目而写，0基础的小白照着做即可完成稳定翻墙（有问题请在Gitter提出）。
+
+## 我们要解决什么问题？
+
+国内屏蔽了大部分开发者必须的服务，如果你希望进行高效地开发以及学习如何开发，访问国外的资源是必须的。而如果你身在国内，由于网络审查的存在，你无法正常访问国外资源。
+
+## 我们所采用的方式
+
+大家可以参阅我知乎专栏那篇科普文以及这篇：https://steemit.com/cn/@v2ray/6knmmb
+
+对V2Ray本身的了解，请参阅这篇：https://toutyrater.github.io/
+
+新手不看这两个链接也可以。我们采用V2Ray，协议采用VMess协议，这是一种比Shadowsocks更加安全且稳定的翻墙方式（新手看不懂没关系）。
+
+## 实际步骤
+
+### 下载工具
+
+V2RayN: https://github.com/2dust/v2rayN/releases/download/2.13/v2rayN.exe
+
+V2RayCore: https://github.com/v2ray/v2ray-core/releases/download/v3.35/v2ray-windows-64.zip
+
+请下载上面两个链接，并且解压第二个zip文件，然后将第一个v2rayN.exe移动至解压后的文件夹中，和其他乱七八糟的文件摆在一起。然后双击启动v2rayN.exe。
+
+### 配置服务器
+
+我们的服务器（严禁外传）：
+
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIiIsDQogICJhZGQiOiAiMTA0LjIzOC4xODguMTU2IiwNCiAgInBvcnQiOiAiNjU1MzUiLA0KICAiaWQiOiAiZTUwNDU1NmItYjY1Yi00YmVhLTg4MWEtNzEyZmE2YzU2NTRhIiwNCiAgImFpZCI6ICIyMzMiLA0KICAibmV0IjogImtjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiINCn0=
+
+服务器一旦泄露，我们会立刻停止服务。
+
+请在打开v2rayN.exe后，复制上面这个十分长的网址，然后按照下图操作：
+
+[alt text](https://files.gitter.im/jihezhi/Lobby/AL3O/image.png "导入URL")
+
+[alt text](https://files.gitter.im/jihezhi/Lobby/8ePy/image.png "启用代理")
+
+[alt text](https://files.gitter.im/jihezhi/Lobby/MGLK/image.png "设置全局代理")
+
+成功后，请访问 https://whoer.net/zh 来检查自己的IP地址是否已在国外。在国外即为成功。
+
+* 对于曾经使用过SwitchyOmega插件的用户而言，删除该插件，或者按照如下配置：
+
+[alt text](https://files.gitter.im/jihezhi/Lobby/58K5/image.png "设置SOCKS5代理")
+
+即可令Chrome正常访问外网。
