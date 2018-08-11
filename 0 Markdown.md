@@ -24,16 +24,17 @@ _你还可以**组合**它们_
   
 1. 这是有序号的项目1
 1. 这是有序号的项目2
-  1. 这是有序号的子项目2a
-  1. 这是有序号的子项目2b
+   1. 这是有序号的子项目2a
+   1. 这是有序号的子项目2b
   
 http://github.com - automatic!
 [这是一个通向GitHub的链接](http://github.com)
 
 以及，
 
-> 这是一个引用
-> 引用的第二行
+> 这是
+> 一个
+> 引用
 
 我们还可以在行内添加`Hello World!`这样的代码
 
@@ -60,18 +61,6 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
-
-GitHub的某个commit:
-
-16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
-
-GitHub的Issue和Pull request:
-
-#1
-mojombo#1
-mojombo/github-flavored-markdown#1
 
 或者~~划掉~~内容
 
