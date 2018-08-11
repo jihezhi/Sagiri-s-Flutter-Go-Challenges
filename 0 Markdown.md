@@ -67,3 +67,5 @@ Content in the first column | Content in the second column
 甚至颜文字:smile:！
 
 强大不强大？
+
+* 在使用Gitter的小伙伴们可以单击聊天输入框右下角的M↓图标或者在界面按下·Ctrl+Shift+m·来显示Markdown Help。
