@@ -1,4 +1,7 @@
 # TheNextGreatProject
+
+[![Join the chat at https://gitter.im/TheNextGreatProject/Lobby](https://badges.gitter.im/TheNextGreatProject/Lobby.svg)](https://gitter.im/TheNextGreatProject/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 这里是关于整个项目的说明
 
 ## How we work
